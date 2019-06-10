@@ -11,3 +11,8 @@ Projects realized as part of the *Computation structures* course given by Profes
 
 * **Maxime Meurisse** - [meurissemax](https://github.com/meurissemax)
 * **Valentin Vermeylen** - [ValentinVermeylen](https://github.com/ValentinVermeylen)
+
+## Scores
+
+* Project 1 received a score of **12/20**.
+* Project 2 received a score of **18.5/20**.
