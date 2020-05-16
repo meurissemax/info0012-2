@@ -1,0 +1,132 @@
+%%%% Code
+
+\usepackage{xcolor}
+\usepackage{listings}
+
+\definecolor{jblue}{rgb}{0.13,0.13,1}
+\definecolor{jgreen}{rgb}{0,0.5,0}
+\definecolor{jred}{rgb}{0.9,0,0}
+
+\definecolor{cgreen}{rgb}{0,0.6,0}
+\definecolor{cgray}{rgb}{0.5,0.5,0.5}
+\definecolor{cpurple}{rgb}{0.58,0,0.82}
+\definecolor{cbackground}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{MyC}{
+	language=C,
+	%%%%%%
+	showstringspaces=false,
+	extendedchars=true,
+	tabsize=4,
+	columns=fixed,
+	%%%%%%
+	breaklines=true,
+	breakatwhitespace=true,
+	prebreak=\space,
+	%%%%%%
+	basicstyle=\footnotesize\fontfamily{pcr},
+	keywordstyle=\color{magenta},
+	commentstyle=\itshape\color{cgreen},
+	stringstyle=\color{cpurple},
+	%%%%%%
+	numbersep=0.5\mytextsize,
+	numbers=left,
+	numberstyle=\tiny\color{cgray},
+	%%%%%%
+	frame=single,
+	backgroundcolor=\color{cbackground},
+	rulecolor=\color{black},
+	framexleftmargin=2\mytextsize,
+	xleftmargin=2\mytextsize,
+	captionpos=b,
+	%%%%%%
+	aboveskip=1.5em
+}
+
+\lstset{emph = {shared, memory, semaphore, semaphores, worker, workers, master, masters, message, messages, queue, queues, chan, signal, wait, ?, !}, emphstyle = {\color{black}\bfseries}}
+
+\lstdefinestyle{MyJava}{
+	language=Java,
+	%%%%%%
+	showstringspaces=false,
+	extendedchars=true,
+	tabsize=4,
+	columns=fixed,
+	%%%%%%
+	breaklines=true,
+	breakatwhitespace=true,
+	prebreak=\space,
+	%%%%%%
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\color{jblue},
+	commentstyle=\color{jgreen},
+	stringstyle=\color{jred},
+	%%%%%%
+	numbersep=0.2\mytextsize,
+	numbers=left,
+	numberstyle={\ttfamily\footnotesize},
+	%%%%%%
+	frame=single,
+	rulecolor=\color{black},
+	framexleftmargin=2\mytextsize,
+	xleftmargin=2\mytextsize,
+	captionpos=b
+}
+
+\lstdefinestyle{MyMatlab}{
+	language=Matlab,
+	%%%%%%
+	showstringspaces=false,
+	extendedchars=true,
+	tabsize=4,
+	columns=fixed,
+	%%%%%%
+	breaklines=true,
+	breakatwhitespace=true,
+	prebreak=\space,
+	%%%%%%
+	basicstyle=\footnotesize\fontfamily{pcr},
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\itshape\color{green!40!black},
+	stringstyle=\color[rgb]{.627,.126,.941},
+	%%%%%%
+	numbersep=0.5\mytextsize,
+	numbers=left,
+	numberstyle={\lstbasicfont\footnotesize},
+	%%%%%%
+	frame=single,
+	rulecolor=\color{black},
+	framexleftmargin=2\mytextsize,
+	xleftmargin=2\mytextsize,
+	captionpos=b
+}
+
+\lstdefinestyle{MyVHDL}{
+	language=VHDL,
+	%%%%%%
+	showstringspaces=false,
+	extendedchars=true,
+	tabsize=4,
+	columns=fixed,
+	%%%%%%
+	breaklines=true,
+	breakatwhitespace=true,
+	prebreak=\space,
+	%%%%%%
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\color{blue!100!black!80},
+	commentstyle=\itshape\color{green!90!black!90},
+	stringstyle=\color[rgb]{.627,.126,.941},
+	%%%%%%
+	numbersep=0.5\mytextsize,
+	numbers=left,
+	numberstyle={\footnotesize},
+	%%%%%%
+	frame=single,
+	rulecolor=\color{black},
+	framexleftmargin=2\mytextsize,
+	xleftmargin=2\mytextsize,
+	captionpos=b
+}
+
+\usepackage{clrscode3e}
